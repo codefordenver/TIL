@@ -3,12 +3,13 @@ module.exports = {
     title: 'Today We Learned',
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/blog`,
+        path: `${__dirname}/blog`,
         name: 'pages',
       },
     },
