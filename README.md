@@ -1,6 +1,6 @@
-# Gatsby Crash Course
+# Code for Denver TIL
 
-This is a sample Gatsby website with a Markdown blog. It is the project from the Gatsby JS Crash Course on YouTube by Traversy Media
+This is the code for the Code for Denver blog.
 
 ## Install
 
@@ -16,6 +16,9 @@ Install the dependencies:
 npm install
 ```
 
-## Deploy
+## Usage 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Run developer mode:
+```sh
+gastby develop
+```
